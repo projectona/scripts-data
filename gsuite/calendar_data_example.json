@@ -1,0 +1,113 @@
+{
+    "calendars": [
+      {
+        "kind": "calendar#events",
+        "etag": "\"etag_string_1\"",
+        "summary": "user1@company.com",
+        "updated": "2025-03-10T08:00:00.000Z",
+        "timeZone": "UTC",
+        "accessRole": "owner",
+        "items": [
+          {
+            "id": "event1",
+            "summary": "Team Meeting",
+            "location": "Conference Room A",
+            "description": "Discuss project milestones.",
+            "start": {
+              "dateTime": "2025-03-05T10:00:00Z",
+              "timeZone": "UTC"
+            },
+            "end": {
+              "dateTime": "2025-03-05T11:00:00Z",
+              "timeZone": "UTC"
+            },
+            "attendees": [
+              {
+                "email": "user1@company.com",
+                "responseStatus": "accepted"
+              },
+              {
+                "email": "user2@company.com",
+                "responseStatus": "needsAction"
+              },
+              {
+                "email": "user3@company.com",
+                "responseStatus": "needsAction"
+              },
+              {
+                "email": "user4@company.com",
+                "responseStatus": "needsAction"
+              },
+              {
+                "email": "user5@company.com",
+                "responseStatus": "needsAction"
+              }   
+            ],
+            "creator": {
+              "email": "user1@company.com",
+              "displayName": "User One"
+            },
+            "organizer": {
+              "email": "user1@company.com",
+              "displayName": "User One"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "calendar#events",
+        "etag": "\"etag_string_2\"",
+        "summary": "user2@company.com",
+        "updated": "2025-03-10T08:00:00.000Z",
+        "timeZone": "UTC",
+        "accessRole": "owner",
+        "items": [
+          {
+            "id": "event2",
+            "summary": "Project Discussion",
+            "location": "Zoom",
+            "description": "Discuss the upcoming project deadlines.",
+            "start": {
+              "dateTime": "2025-03-10T14:00:00Z",
+              "timeZone": "UTC"
+            },
+            "end": {
+              "dateTime": "2025-03-10T15:00:00Z",
+              "timeZone": "UTC"
+            },
+            "attendees": [
+              {
+                "email": "user2@company.com",
+                "responseStatus": "accepted"
+              },
+              {
+                "email": "user3@company.com",
+                "responseStatus": "tentative"
+              },
+              {
+                "email": "user4@company.com",
+                "responseStatus": "tentative"
+              },
+              {
+                "email": "user5@company.com",
+                "responseStatus": "tentative"
+              },
+              {
+                "email": "user6@company.com",
+                "responseStatus": "tentative"
+              } 
+            ],
+            "creator": {
+              "email": "user2@company.com",
+              "displayName": "User Two"
+            },
+            "organizer": {
+              "email": "user2@company.com",
+              "displayName": "User Two"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
