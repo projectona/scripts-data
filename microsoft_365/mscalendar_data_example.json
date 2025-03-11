@@ -1,0 +1,181 @@
+{
+    "name_alice": {
+        "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('alice.johnson%40company.com')/events",
+        "value": [
+            {
+                "id": "AAMkAG001",
+                "iCalUId": "040000008200E00074C5B7101A82E00800000000A1A1A1A1",
+                "createdDateTime": "2025-03-01T08:30:00Z",
+                "lastModifiedDateTime": "2025-03-05T12:00:00Z",
+                "subject": "Project Kickoff",
+                "start": {
+                    "dateTime": "2025-03-11T14:00:00",
+                    "timeZone": "UTC"
+                },
+                "end": {
+                    "dateTime": "2025-03-11T15:00:00",
+                    "timeZone": "UTC"
+                },
+                "organizer": {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                },
+                "attendees": [
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Bob Smith",
+                            "address": "bob.smith@company.com"
+                        }
+                    }
+                ],
+                "location": {
+                    "displayName": "Conference Room 1"
+                },
+                "bodyPreview": "Project Kickoff meeting to align deliverables...",
+                "isAllDay": false,
+                "recurrence": null
+            },
+            {
+                "id": "AAMkAG002",
+                "iCalUId": "040000008200E00074C5B7101A82E00800000000B2B2B2B2",
+                "createdDateTime": "2025-03-02T09:00:00Z",
+                "lastModifiedDateTime": "2025-03-06T13:00:00Z",
+                "subject": "Weekly Sync",
+                "start": {
+                    "dateTime": "2025-03-13T09:00:00",
+                    "timeZone": "UTC"
+                },
+                "end": {
+                    "dateTime": "2025-03-13T10:00:00",
+                    "timeZone": "UTC"
+                },
+                "organizer": {
+                    "emailAddress": {
+                        "name": "David Lee",
+                        "address": "david.lee@company.com"
+                    }
+                },
+                "attendees": [
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Alice Johnson",
+                            "address": "alice.johnson@company.com"
+                        }
+                    },
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Charlie Brown",
+                            "address": "charlie.brown@company.com"
+                        }
+                    }
+                ],
+                "location": {
+                    "displayName": "Zoom Meeting"
+                },
+                "bodyPreview": "Discuss project updates and blockers...",
+                "isAllDay": false,
+                "recurrence": {
+                    "pattern": {
+                        "type": "weekly",
+                        "interval": 1,
+                        "daysOfWeek": ["Thursday"]
+                    },
+                    "range": {
+                        "type": "endDate",
+                        "startDate": "2025-03-13",
+                        "endDate": "2025-06-30"
+                    }
+                }
+            },
+            {
+                "id": "AAMkAG003",
+                "iCalUId": "040000008200E00074C5B7101A82E00800000000C3C3C3C3",
+                "createdDateTime": "2025-03-03T10:00:00Z",
+                "lastModifiedDateTime": "2025-03-07T14:30:00Z",
+                "subject": "Client Presentation",
+                "start": {
+                    "dateTime": "2025-03-15T16:00:00",
+                    "timeZone": "UTC"
+                },
+                "end": {
+                    "dateTime": "2025-03-15T17:30:00",
+                    "timeZone": "UTC"
+                },
+                "organizer": {
+                    "emailAddress": {
+                        "name": "Emily Davis",
+                        "address": "emily.davis@company.com"
+                    }
+                },
+                "attendees": [
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Alice Johnson",
+                            "address": "alice.johnson@company.com"
+                        }
+                    },
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Franklin Lewis",
+                            "address": "franklin.lewis@company.com"
+                        }
+                    }
+                ],
+                "location": {
+                    "displayName": "Microsoft Teams"
+                },
+                "bodyPreview": "Presentation for the new client...",
+                "isAllDay": false,
+                "recurrence": null
+            }
+        ]
+    },
+    "name_bob": {
+        "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('bob.smith%40company.com')/events",
+        "value": [
+            {
+                "id": "AAMkBG004",
+                "iCalUId": "040000008200E00074C5B7101A82E00800000000A1A1A1A1",
+                "createdDateTime": "2025-03-01T08:30:00Z",
+                "lastModifiedDateTime": "2025-03-05T12:00:00Z",
+                "subject": "Project Kickoff",
+                "start": {
+                    "dateTime": "2025-03-12T08:30:00",
+                    "timeZone": "UTC"
+                },
+                "end": {
+                    "dateTime": "2025-03-12T09:00:00",
+                    "timeZone": "UTC"
+                },
+                "organizer": {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                },
+                "attendees": [
+                    {
+                        "type": "required",
+                        "emailAddress": {
+                            "name": "Bob Smith",
+                            "address": "bob.smith@company.com"
+                        }
+                    }
+                ],
+                "location": {
+                    "displayName": "Conference Room 1"
+                },
+                "bodyPreview": "Project Kickoff meeting to align deliverables...",
+                "isAllDay": false,
+                "recurrence": null
+            }
+        ]
+    }
+}

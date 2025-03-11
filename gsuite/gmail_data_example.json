@@ -59,6 +59,36 @@
             }
           ]
         }
+      },
+      {
+        "id": "message2",
+        "threadId": "thread2",
+        "labelIds": ["INBOX"],
+        "snippet": "Here's a follow-up email on the team meeting.",
+        "payload": {
+          "headers": [
+            {
+              "name": "From",
+              "value": "user2@company.com"
+            },
+            {
+              "name": "To",
+              "value": "user1@company.com"
+            },
+            {
+              "name": "Cc",
+              "value": "user6@company.com"
+            },
+            {
+              "name": "Bcc",
+              "value": "user7@company.com, user8@company.com"
+            },
+            {
+              "name": "Date",
+              "value": "2025-03-01T12:00:00Z"
+            }
+          ]
+        }
       }
     ]
   }

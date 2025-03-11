@@ -1,0 +1,134 @@
+{
+    "emails": [
+        {
+            "id": "AAMkAG001",
+            "createdDateTime": "2025-03-01T08:30:00Z",
+            "lastModifiedDateTime": "2025-03-01T08:30:00Z",
+            "receivedDateTime": "2025-03-01T08:30:00Z",
+            "sentDateTime": "2025-03-01T08:28:00Z",
+            "subject": "Project Update",
+            "from": {
+                "emailAddress": {
+                    "name": "Bob Smith",
+                    "address": "bob.smith@company.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                },
+                {
+                    "emailAddress": {
+                        "name": "Super john",
+                        "address": "super.john@company.com"
+                    }
+                }
+            ],
+            "internetMessageId": "<projupdate123@company.com>",
+            "conversationId": "conv123...",
+            "isDraft": false
+        },
+        {
+            "id": "AAMkAG002",
+            "createdDateTime": "2025-03-02T10:15:00Z",
+            "lastModifiedDateTime": "2025-03-02T10:15:00Z",
+            "receivedDateTime": "2025-03-02T10:15:00Z",
+            "sentDateTime": "2025-03-02T10:13:00Z",
+            "subject": "Financial Report Q1",
+            "from": {
+                "emailAddress": {
+                    "name": "David Lee",
+                    "address": "david.lee@company.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                }
+            ],
+            "ccRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Finance Team",
+                        "address": "finance@company.com"
+                    }
+                }
+            ],
+            "isRead": true,
+            "internetMessageId": "<finreportQ1@company.com>",
+            "isDraft": false
+        },
+        {
+            "id": "AAMkDG001",
+            "createdDateTime": "2025-03-02T10:15:00Z",
+            "lastModifiedDateTime": "2025-03-02T10:15:00Z",
+            "receivedDateTime": "2025-03-02T10:15:00Z",
+            "sentDateTime": "2025-03-02T10:13:00Z",
+            "subject": "Financial Report Q1",
+            "from": {
+                "emailAddress": {
+                    "name": "David Lee",
+                    "address": "david.lee@company.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                }
+            ],
+            "ccRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Finance Team",
+                        "address": "finance@company.com"
+                    }
+                }
+            ],            
+            "isRead": true,
+            "internetMessageId": "<finreportQ1@company.com>",
+            "isDraft": false
+        },
+        {
+            "id": "AAMkVG001",
+            "createdDateTime": "2025-03-02T10:15:00Z",
+            "lastModifiedDateTime": "2025-03-02T10:15:00Z",
+            "receivedDateTime": "2025-03-02T10:15:00Z",
+            "sentDateTime": "2025-03-02T10:13:00Z",
+            "subject": "Financial Report Q1",
+            "from": {
+                "emailAddress": {
+                    "name": "Victor Lav",
+                    "address": "victor.lav@company.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Alice Johnson",
+                        "address": "alice.johnson@company.com"
+                    }
+                }
+            ],
+            "bccRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "CEO",
+                        "address": "ceo@company.com"
+                    }
+                }
+            ],            
+            "isRead": true,
+            "internetMessageId": "<vlanhex@company.com>",
+            "isDraft": false
+        }
+    ]
+}
