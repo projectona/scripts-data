@@ -105,15 +105,14 @@ O time de dados da empresa ficará responsável por realizar o processo de extra
 
 ##  Regras de negócio dos dados do Onalize
 
-📌 **Regra 1: Garantindo interação entre todos os colaboradores em uma reunião síncrona**
+📌 **Regra 1: Garantindo interação entre todos os colaboradores em uma reunião síncrona ou email**
 
 ![atuacao_resumida](images/combinacoes_interacoes.PNG)
 
+📌 **Regra 2: Garantindo que cada evento de comunicação não está duplicado**
 
-📌 **Regra 2: Garantindo interação entre todos os colaboradores que mandaram o email e quem apenas recebeu**
+![atuacao_resumida](images/duplicatas_fix.PNG)
 
-
-📌 **Regra 3: Garantindo que cada evento de comunicação não está duplicado**
-
+⚠️ Dentro do repositório explicamos como arrumamos esses casos de duplicatas nos dados
 
 
