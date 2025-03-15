@@ -3,13 +3,13 @@
 **Bem-vindo a documentação principal de extração, transformação e carregamento dos dados para o Onalize**
 Nesta documentação, você irá aprender:
 
-✔️Explicação breve sobre quais informações o Onalize utiliza e como utiliza.
-✔️Explicação breve sobre a origem dos dados que utilizamos e policies
-✔️Como obter os dados para o tipo de workspace que sua empresa possui
-✔️Regras de negócio com código exemplificados para implementação
-✔️Códigos de exemplo de extração dos dados do workspace que sua empresa possui
-❌Códigos reais com extração dos dados via API
-❌ Exemplos reais de retornos da API do workspace que sua empresa possui
+✔️Explicação breve sobre quais informações o Onalize utiliza e como utiliza. <br>
+✔️Explicação breve sobre a origem dos dados que utilizamos e policies <br>
+✔️Como obter os dados para o tipo de workspace que sua empresa possui <br>
+✔️Regras de negócio com código exemplificados para implementação <br>
+✔️Códigos de exemplo de extração dos dados do workspace que sua empresa possui <br>
+❌Códigos reais com extração dos dados via API <br>
+❌ Exemplos reais de retornos da API do workspace que sua empresa possui <br>
 
 ⚠️ *Infelizmente a Onalize não disponibiliza hoje códigos de exemplos reais devido a confidencialidade dos dados*
 
