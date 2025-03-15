@@ -99,6 +99,8 @@ O time de dados da empresa ficará responsável por realizar o processo de extra
 
 📌 **Como garantimos que os dados não serão vazados?**
 
+Os dados enviados serão armazenados numa cloud com um banco de dados compartilhado, sendo que a contratante terá acesso constante ao mesmo.
+
 📌 **Atuação resumida entre Onalize x Contratante**
 
 ![atuacao_resumida](images/atuacao_resumida.PNG)
