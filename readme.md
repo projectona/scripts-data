@@ -101,7 +101,7 @@ O time de dados da empresa ficará responsável por realizar o processo de extra
 
 📌 **Atuação resumida entre Onalize x Contratante**
 
-![atuacao_resumida](atuacao_resumida.PNG)
+![atuacao_resumida](images/atuacao_resumida.PNG)
 
 ##  Regras de negócio dos dados do Onalize
 
