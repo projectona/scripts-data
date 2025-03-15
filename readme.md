@@ -107,6 +107,8 @@ O time de dados da empresa ficará responsável por realizar o processo de extra
 
 📌 **Regra 1: Garantindo interação entre todos os colaboradores em uma reunião síncrona**
 
+![atuacao_resumida](images/combinacoes_interacoes.PNG)
+
 
 📌 **Regra 2: Garantindo interação entre todos os colaboradores que mandaram o email e quem apenas recebeu**
 
